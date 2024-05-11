@@ -1,0 +1,271 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_container {
+    max-width: 1237px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section_container {
+    max-width: 1241px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.common {
+    width: 1400px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    background-color: #2D2929;
+    margin: 50px auto;
+    position: relative;
+}
+
+.header {
+    width: 1237px;
+    height: 24px;
+    display: flex;
+    gap: 1134px;
+    margin: 30px 80px 82px 83px;
+}
+
+.header img:nth-child(2) {
+    cursor: pointer;
+    transition: all 1.5s;
+}
+
+.header img:nth-child(2):hover {
+    background-color: #fff;
+    border-radius: 5px;
+    transform: rotate(180deg);
+}
+
+.section {
+    width: 1241px;
+    height: 228px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 80px 0px 79px;
+    position: relative;
+}
+
+.section h1 {
+    width: 753px;
+    height: 144px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.section p {
+    width: 640px;
+    height: 60px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px; 
+    text-align: left;
+    color: #FFFFFF;  
+}
+
+.section button {
+    width: 218px;
+    height: 52px;
+    padding: 16px 32px;
+    text-align: center;
+    border-radius: 50px;
+    font-weight: normal;
+    font-style: medium;
+    font-size: 18px;
+    color: #110814;
+    line-height: 20px;
+    background-color: #FEEA36;
+    position: absolute;
+    right: 0px;
+    top: 14px;
+    cursor: pointer;
+    transition: all 1s ;
+}
+
+.section button:hover {
+    background-color: aqua;
+    color: red;
+    transform: scale(1.2, 1.2);
+}
+
+.common .background {
+    width: 1400px;
+    height: 602px;
+    position: absolute;
+    top: 200px;
+}
+
+
+
+/* main 2 uchun */
+
+.main2_container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.main2 {
+    width: 1440px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2D2929;
+    margin: 50px auto;
+}
+
+.header {
+    width: 1237px;
+    height: 24px;
+    display: flex;
+    gap: 1134px;
+    margin: 30px 101px 44px 102px;
+}
+
+.header .logo {
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.header .logo:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.header img:nth-child(2) {
+    cursor: pointer;
+    transition: all 1.5s;
+}
+
+.header img:nth-child(2):hover {
+    background-color: #fff;
+    border-radius: 5px;
+    transform: rotate(180deg);
+}
+
+.main2 h2 {
+    width: 812px;
+    height: 144px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    color: #F5F5F5;
+    /* margin-left: 314px; */
+    margin-bottom: 78px;
+}
+
+.main2 .information {
+    width: 1160px;
+    height: 515px;
+    position: relative;
+}
+
+.information .img1 {
+    width: 398px;
+    height: 324px;
+    position: absolute;
+    left: 0px;
+    top: 60px;
+}
+
+.information .img2 {
+    width: 398px;
+    height: 324px;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+}
+
+.information .divimg {
+    width: 762px;
+    height: 444px;
+    position: absolute;
+    top: 0px;
+    left: 199px;
+}
+
+.information .info {
+    width: 762px;
+    height: 59px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 456px;
+    left: 199px;
+}
+
+.info h6 {
+    width: 123px;
+    height: 30px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color:#FFFFFF;
+    margin-bottom: 1px;
+}
+
+.info p {
+    width: 481px;
+    height: 17px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.info button {
+    width: 139px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFFFFF;
+    background-color: #2C2B2E;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.information .icon_left {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 493px;
+    left: 2px;
+    cursor: pointer;
+}
+
+.information .icon_right {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 493px;
+    right: 2px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
